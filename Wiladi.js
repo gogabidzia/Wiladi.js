@@ -78,8 +78,8 @@ var Wiladi = function (a, b) {
     this.echo = function () {
         return a + "/" + b;
     }
+    this.toDecimal = function(){
+        return this.top/this.bottom;
+    }
     this.init();
-}
-Wiladi.parse = function (str) {
-    str = "(1/5+100/2)/124+10/2";
 }
